@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales y variables locales
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Herramientas de desarrollo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Archivos generados por ag_petrolera.py
+tabla_iteraciones.csv
+tabla_cambios.csv
+fitness_por_iteracion.png
+
+# Archivos del sistema y del editor
+.DS_Store
+.vscode/
